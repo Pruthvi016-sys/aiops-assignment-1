@@ -27,7 +27,7 @@ This repository contains all deliverables for the Module 1 assignment (Experimen
 |---|---|
 | `Exercise1_MNIST_MLP_Question2.ipynb` | Full notebook — loads MNIST, trains `MLPClassifier` across a 3×3 grid of `learning_rate_init` × `batch_size` (9 runs), logs params/metrics per epoch to MLflow. |
 | `mlflow-codesnippet.py` | The exact `mlflow.log_param` / `mlflow.log_metric` code added to the starter script (Deliverable 3). |
-| `screenshot-mlflow-run-comparision-table.png` / `mlflow-comparision.png` | The 9-run comparison table from the MLflow UI (Deliverable 1). |
+| `screenshot-mlflow-run-comparision-table.png`  | The 9-run comparison table from the MLflow UI (Deliverable 1). |
 | `curves-best-run.png` | train_loss / train_accuracy / val_accuracy curves for the best run (used as evidence for the overfitting analysis). |
 
 **Written analysis** (best run, overfitting evidence, hyperparameter comparison) is in the 1-page report.
@@ -88,18 +88,18 @@ wc -l filenames.csv   # -> 1801, matching v1 exactly
 
 **Folder:** `q4 - Capstone: End-to-End Reproducibility Drill/`
 
-**Important:** For this question, my partner (Partner A) and I worked in **Partner A's repository** together (as collaborators), rather than a separate third repo, since the assignment only requires that both partners' work live in one shared repo and be clearly attributable by commit — it does not require a brand-new repo. That shared repo is:
+**Important:** For this question, my partner (Mohammed Khaja - DA24B015) and I worked in **Partner A's repository** together (as collaborators), rather than a separate third repo, since the assignment only requires that both partners' work live in one shared repo and be clearly attributable by commit — it does not require a brand-new repo. That shared repo is:
 
 **Partner A's repository (shared, contains all Q4 work):** https://github.com/raisserv2/aiops-assignment1
 
-My commits in that repository are under my own GitHub account and can be checked directly there for reference (see `note.txt` in this folder for the same pointer).
+My commits in that repository are under my own GitHub account(Pruthvi016-sys) and can be checked directly there for reference (see `note.txt` in this folder for the same pointer).
 
 **What Partner A did (their part, 6 marks):** trained an MLP on MNIST, logged the run to MLflow with params, metrics, seed, a `git_commit` tag, and the model artifact; versioned the dataset with DVC; committed code + `.dvc` file together in one commit; registered the model and moved it to `Staging`.
 
 **What I did as Partner B (my part, 6 + 3 marks):**
 1. `git clone https://github.com/raisserv2/aiops-assignment1.git`
 2. `git checkout <partner A's pinned commit>` (tag: `capstone`)
-3. `conda env create -f environment.yml` then `conda activate aiops-m1`
+3. `conda activate aiops-m1`
 4. `dvc checkout` to restore the DVC-tracked dataset
 5. Started the local MLflow tracking server and reran the training script with the exact same hyperparameters and seed:
    ```bash
