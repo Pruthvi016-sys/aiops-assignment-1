@@ -4,7 +4,7 @@ This repository contains all deliverables for the Module 1 assignment (Experimen
 
 **1-page written report (Q1 + Q2 analysis, condensed Q3/Q4):** [`1-page_pdf_report.pdf`](./1-page_pdf_report.pdf)
 
-**Demo video (2–5 min walkthrough of all four questions):** `<LINK TO BE ADDED HERE>`
+**Demo video (2–5 min walkthrough of all four questions):** `https://drive.google.com/file/d/1vvbegGnXccSS6NMQttJGZ_eb1Pbjq70E/view?usp=sharing
 
 ---
 
@@ -160,4 +160,4 @@ Per assignment guidelines, AI tool usage is disclosed per question below. **Tool
 
 ## Demo Video
 
-A 2–5 minute video walking through the working demo and explanation of all four questions is available here: `<LINK TO BE ADDED HERE>`
+A 2–5 minute video walking through the working demo and explanation of all four questions is available here: `https://drive.google.com/file/d/1vvbegGnXccSS6NMQttJGZ_eb1Pbjq70E/view?usp=sharing
