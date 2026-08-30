@@ -1,0 +1,6 @@
+I solved the Q4 in my partner's repositiory which is: (https://github.com/raisserv2/aiops-assignment1)
+
+You can check my commits there for reference.
+
+The screenshots to all the tasks(it clone, git checkout <commit>, dvc checkout, mamba* env create -f environment.yml, rerun the script and logging a note in the MLflow) done in the terminal 
+are attached here clearly.
