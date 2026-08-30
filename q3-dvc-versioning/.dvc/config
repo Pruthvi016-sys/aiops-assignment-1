@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = ssh://sriharsha@10.141.37.203/home/sriharsha/dvc-remote-storage
